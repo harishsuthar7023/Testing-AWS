@@ -1,0 +1,47 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+myenv/
+
+# Django specific
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+.env
+*.log
+
+# VSCode & JetBrains IDEs
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Migrations (optional - if you regenerate them regularly)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# Uncomment this line below ONLY if you don't want to track migrations at all:
+# **/migrations/
+
+# Node stuff (if you use frontend build tools)
+node_modules/
+
+# Local settings (if you have a separate file)
+local_settings.py
